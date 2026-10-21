@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 22% 20% 7% 27% 22%;
+  grid-template-rows: 29% 26% 7% 18% 20%;
+
+  grid-template-areas:
+    "left-top top-center1 top-center1 top-center2 top-right"
+    "left-top center center center top-right"
+    "left-top center center center top-right"
+    "left-bottom center center center bottom-right"
+    "left-bottom center-bottom1 center-bottom2 center-bottom2 bottom-right";
+
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 700;
+  padding: 10px;
+  gap: 10px;
+  background-color: black;
+}
+
+.div1 {
+  grid-area: left-top;
+  background-color: #fce5e6;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div2 {
+  grid-area: left-bottom;
+  background-color: #1e1e1e;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div3 {
+  grid-area: top-center1;
+  background-color: #fbdedf;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div4 {
+  grid-area: top-center2;
+  background-color: #fbdedf;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div5 {
+  grid-area: center;
+  background-color: #fbe4e5;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div6 {
+  grid-area: center-bottom1;
+  background-color: #fcf8f9;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div7 {
+  grid-area: center-bottom2;
+  background-color: #fef2f2;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div8 {
+  grid-area: top-right;
+  background-color: #fcf7f9;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div9 {
+  grid-area: bottom-right;
+  background-color: #fbf8f9;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
