@@ -240,6 +240,8 @@ body {
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
+      margin-top: -100px;
+      padding-bottom: 60px;
       .hero-lower-left {
         h1 {
           font-size: 4em;
